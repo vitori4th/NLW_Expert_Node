@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/http/server.ts",
-    "postinstall": "prisma generate",
-    "build": "prisma generate vercel build"
+    "dev": "tsx watch src/http/server.ts"
   },
   "keywords": [],
   "author": "",
